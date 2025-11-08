@@ -10,6 +10,7 @@ import SwiftUI
 struct ButtonModule: View {
     @State private var rectanleColor = Color.blue
     @State var title = "Hello"
+    @State private var didlike = false
     var body: some View {
         VStack {
             Rectangle()
@@ -43,14 +44,16 @@ struct ButtonModule: View {
             }
             
             Button {
+                didlike.toggle()
+                print(didlike)
                 rectanleColor = .purple
                 title = "heart circle clicked"
                 
             } label: {
-                Image(systemName: "heart.circle.fill")
+                Image(systemName: didlike ? "heart.fill" : "heart")
                     .resizable()
                     .frame(width: 80, height: 80)
-                    .foregroundColor(.red)
+                    .foregroundColor(didlike ? .red : .gray)
             }
         }
     }
