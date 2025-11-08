@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05949562EBF570C007AA5E9 /* ButtonModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05949552EBF570C007AA5E9 /* ButtonModule.swift */; };
 		C0E36C0B2EBF04CA007B797B /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E36C0A2EBF04CA007B797B /* SwiftUILearningApp.swift */; };
 		C0E36C0D2EBF04CA007B797B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E36C0C2EBF04CA007B797B /* ContentView.swift */; };
 		C0E36C0F2EBF04CA007B797B /* TextModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E36C0E2EBF04CA007B797B /* TextModule.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		C03FDC932E9576F100CBD8F9 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05949552EBF570C007AA5E9 /* ButtonModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModule.swift; sourceTree = "<group>"; };
 		C0E36C0A2EBF04CA007B797B /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		C0E36C0C2EBF04CA007B797B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C0E36C0E2EBF04CA007B797B /* TextModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModule.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				C0E36C362EBF09F3007B797B /* Stacks */,
 				C0E36C372EBF105D007B797B /* Padding */,
 				C0E36C382EBF10A3007B797B /* Loop */,
+				C05949542EBF56DA007AA5E9 /* Button */,
 				C0E36C392EBF10D4007B797B /* Scrolling */,
 				C0E36C3A2EBF10EB007B797B /* Grid */,
 				C0E36C3B2EBF1101007B797B /* List */,
@@ -97,6 +100,14 @@
 				C03FDC932E9576F100CBD8F9 /* SwiftUILearning.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C05949542EBF56DA007AA5E9 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				C05949552EBF570C007AA5E9 /* ButtonModule.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 		C0E36C312EBF04DE007B797B /* App */ = {
@@ -304,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05949562EBF570C007AA5E9 /* ButtonModule.swift in Sources */,
 				C0E36C192EBF04CA007B797B /* StacksModules.swift in Sources */,
 				C0E36C172EBF04CA007B797B /* LoopModules.swift in Sources */,
 				C0E36C0F2EBF04CA007B797B /* TextModule.swift in Sources */,
