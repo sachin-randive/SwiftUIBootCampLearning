@@ -8,11 +8,47 @@
 import SwiftUI
 
 struct DetailsView: View {
+    let driver: String
+    let image: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+          /*  NavigationLink {
+                Text("third Screen")
+            } label: {
+                VStack {
+                    Text(driver)
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .foregroundColor(.purple)
+                    Image(image)
+                        .resizable()
+                        .scaledToFill()
+                    .frame(width: 350, height: 350)
+                        .clipShape(Circle())
+                }
+            } */
+            NavigationLink(value: "third Screen", label: {
+                VStack {
+                    Text(driver)
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .foregroundColor(.purple)
+                    Image(image)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 350, height: 350)
+                }
+            })
+        }
+        .navigationDestination(for: String.self) { destination in
+            if destination == "third Screen" {
+                Text("Third Screen")    
+            }
+        }
     }
 }
 
 #Preview {
-    DetailsView()
+    DetailsView(driver: "Ravi", image: "5")
 }
