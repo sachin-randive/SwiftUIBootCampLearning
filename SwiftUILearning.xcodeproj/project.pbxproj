@@ -10,6 +10,7 @@
 		C05949562EBF570C007AA5E9 /* ButtonModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05949552EBF570C007AA5E9 /* ButtonModule.swift */; };
 		C080875E2EC04ECD00A39C3F /* NavigationStackModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080875D2EC04ECD00A39C3F /* NavigationStackModule.swift */; };
 		C08087602EC055AA00A39C3F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080875F2EC055AA00A39C3F /* DetailsView.swift */; };
+		C08087692EC0B0AD00A39C3F /* TabViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08087682EC0B0AD00A39C3F /* TabViewModule.swift */; };
 		C0A0E0C72EBF6B1D00FA40D0 /* SheetModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A0E0C62EBF6B1D00FA40D0 /* SheetModule.swift */; };
 		C0E36C0B2EBF04CA007B797B /* SwiftUILearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E36C0A2EBF04CA007B797B /* SwiftUILearningApp.swift */; };
 		C0E36C0D2EBF04CA007B797B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E36C0C2EBF04CA007B797B /* ContentView.swift */; };
@@ -36,6 +37,7 @@
 		C05949552EBF570C007AA5E9 /* ButtonModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModule.swift; sourceTree = "<group>"; };
 		C080875D2EC04ECD00A39C3F /* NavigationStackModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackModule.swift; sourceTree = "<group>"; };
 		C080875F2EC055AA00A39C3F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		C08087682EC0B0AD00A39C3F /* TabViewModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModule.swift; sourceTree = "<group>"; };
 		C0A0E0C62EBF6B1D00FA40D0 /* SheetModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetModule.swift; sourceTree = "<group>"; };
 		C0E36C0A2EBF04CA007B797B /* SwiftUILearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearningApp.swift; sourceTree = "<group>"; };
 		C0E36C0C2EBF04CA007B797B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				C0E36C3F2EBF11D6007B797B /* TextFieldLogin */,
 				C0A0E0C52EBF6AFE00FA40D0 /* Sheets */,
 				C080875C2EC04E9F00A39C3F /* NavigationStackModule */,
+				C08087672EC0B09500A39C3F /* TabView */,
 				C0DAB56A2E95FB1C00C38FF6 /* SwiftUILearning */,
 				C03FDC942E9576F100CBD8F9 /* Products */,
 			);
@@ -125,6 +128,14 @@
 				C080875F2EC055AA00A39C3F /* DetailsView.swift */,
 			);
 			path = NavigationStackModule;
+			sourceTree = "<group>";
+		};
+		C08087672EC0B09500A39C3F /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				C08087682EC0B0AD00A39C3F /* TabViewModule.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 		C0A0E0C52EBF6AFE00FA40D0 /* Sheets */ = {
@@ -354,6 +365,7 @@
 				C0E36C232EBF04CA007B797B /* ShapeModules.swift in Sources */,
 				C0E36C0D2EBF04CA007B797B /* ContentView.swift in Sources */,
 				C0E36C0B2EBF04CA007B797B /* SwiftUILearningApp.swift in Sources */,
+				C08087692EC0B0AD00A39C3F /* TabViewModule.swift in Sources */,
 				C0E36C252EBF04CA007B797B /* ControllFlow.swift in Sources */,
 				C0E36C132EBF04CA007B797B /* ScrollModule.swift in Sources */,
 				C0E36C1B2EBF04CA007B797B /* ImagesModules.swift in Sources */,
